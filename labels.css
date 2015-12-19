@@ -1,0 +1,988 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f5f5;
+    color: #424242;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.containerbox {
+    display: inline-block;
+    width: 100%;
+}
+
+.container {
+	background-color: #f5f5f5;
+    margin: 24px auto 0;
+ 
+    width: 1024px;
+}
+
+.dragDiv {
+    float: left;
+    width: 100%;
+}
+#dragDiv5 {
+    overflow: visible;
+}
+#dragDiv6, #dragDiv2, #dragDiv4, #dragDiv3 {
+    overflow: hidden;
+}
+
+.expect_con, .gzjl1CON {
+    padding: 10px 0 10px 62px;
+    position: relative;
+
+}
+.gzjl1CON .expect_con {
+    padding: 0;
+    position: static;
+}
+
+.gzjl1CON .expect_con {
+    padding: 0;
+    position: static;
+}
+#zyjn3 {
+    overflow: hidden;
+}
+.expect_con .default {
+    background: rgba(0, 0, 0, 0) url("images/add.png") no-repeat scroll center 0;
+    color: #555;
+    float: left;
+    font-size: 14px;
+    height: 80px;
+    width: 100%;
+}
+
+.jineng_div {
+    overflow: hidden;
+    width: 100%;
+}
+
+.expect_con ul p i {
+    background: rgba(0, 0, 0, 0) url("images/edit_pen.png") no-repeat scroll -24px center;
+    cursor: pointer;
+    float: left;
+    height: 24px;
+    margin-left: 5px;
+    width: 20px;
+}
+
+.jineng_div {
+    overflow: hidden;
+    width: 100%;
+}
+
+.expect_con .jineng_label {
+    color: #555;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.expect_con .jineng_label label {
+    background: #c4c4c4 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    float: left;
+    line-height: 29px;
+    padding: 0 5px;
+    text-align: center;
+}
+.expect_con .jineng_label i {
+    border-color: #fff #fff #fff #c4c4c4;
+    border-style: solid;
+    border-width: 6px;
+    float: left;
+    font-size: 0;
+    height: 0;
+    margin-top: 8.5px;
+    width: 0;
+}
+
+.footer_edit {
+    height: 22px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+}
+.footer_edit span {
+    background: #000 none repeat scroll 0 0;
+    cursor: pointer;
+    float: right;
+    height: 22px;
+    width: 22px;
+}
+
+.my_labels {
+    overflow: hidden;
+    padding: 15px 0;
+}
+.my_labelsie {
+    border-top: 1px solid #b9e6d9;
+    padding: 25px 10px;
+    width: 220px;
+}
+.my_labelsie .compete_percent {
+    color: #fff;
+    font-size: 14px;
+    overflow: hidden;
+    width: 100%;
+}
+.my_labelsie .compete_percent a {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    float: right;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    width: 44px;
+}
+
+.label_s {
+    position: relative;
+    width: 569px;
+    z-index: 1;
+}
+
+.add_cons {
+    display: none;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+
+.tab_con .list_em {
+    margin-top: 3px;
+}
+
+.tab_li font {
+    background: rgba(0, 0, 0, 0) url("images/font_bg.png") no-repeat scroll center 5px;
+    cursor: pointer;
+    float: left;
+    height: 28px;
+    width: 19px;
+}
+
+.tab_con .list_em {
+    margin-top: 3px;
+}
+
+
+.keys {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: none;
+    position: absolute;
+    width: 567px;
+}
+
+.add_tj {
+    background: #82c9ff none repeat scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    height: 44px;
+    padding: 0 20px;
+}
+.add_tj span {
+    float: left;
+    line-height: 44px;
+}
+.add_tj a {
+    background: #3dabff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 8px;
+    text-align: center;
+    width: 70px;
+}
+.add_tj a:hover {
+    background: #2191e6 none repeat scroll 0 0;
+}
+
+.search_ul {
+    overflow: hidden;
+    padding: 10px 0;
+    width: 100%;
+}
+.search_ul li {
+    cursor: pointer;
+    line-height: 33px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.search_ul li:hover, .search_ul li.active {
+    background: #bdfee5 none repeat scroll 0 0;
+}
+.search_ul li span {
+    float: left;
+}
+.search_ul li label {
+    float: right;
+}
+
+.btns a.save {
+    background: #ff5a5a none repeat scroll 0 0;
+    color: #fff;
+}
+.btns a.save:hover {
+    background: #ff2c2c none repeat scroll 0 0;
+}
+
+.btns {
+    overflow: hidden;
+    padding-top: 20px;
+    width: 100%;
+}
+#self_info2 .btns {
+    margin-left: 90px;
+    overflow: hidden;
+    padding-top: 20px;
+    width: 700px;
+}
+.btns a {
+    border-radius: 2px;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 75px;
+}
+.btns a.save {
+    background: #ff5a5a none repeat scroll 0 0;
+    color: #fff;
+}
+.btns a.save:hover {
+    background: #ff2c2c none repeat scroll 0 0;
+}
+.btns a.cancel {
+    background: #d4d4d4 none repeat scroll 0 0;
+    margin-left: 8px;
+}
+.btns a.cancel:hover {
+    background: #aeaeae none repeat scroll 0 0;
+}
+
+
+.experience_con p.pos_p_add, .expect_con p.pos_p_add {
+    height: 22px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+}
+
+
+.expect_con .default span {
+    display: inline-block;
+    height: 60px;
+    margin-left: 130px;
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 10px;
+    padding-top: 20px;
+    width: 260px;
+}
+
+.expect_title {
+    color: #555;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.self_description {
+    color: #6e6e6e;
+    line-height: 24px;
+}
+
+.footer_edit {
+    height: 22px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+}
+
+.my_labels {
+    overflow: hidden;
+    padding: 15px 0;
+}
+.my_labelsie {
+    border-top: 1px solid #b9e6d9;
+    padding: 25px 10px;
+    width: 220px;
+}
+.my_labelsie .compete_percent {
+    color: #fff;
+    font-size: 14px;
+    overflow: hidden;
+    width: 100%;
+}
+.my_labelsie .compete_percent a {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    float: right;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    width: 44px;
+}
+.my_labelsie .compete_percent a.xz_a {
+    margin-left: 5px;
+}
+.my_labelsie .compete_percent a:hover {
+    border: 1px solid #ff2c2c;
+    color: #ff2c2c;
+}
+.my_labels p {
+    color: #3b3b3b;
+    font-size: 18px;
+    overflow: hidden;
+    text-indent: 10px;
+    width: 100%;
+}
+.my_labels .upload_time {
+    color: #6e6e6e;
+    text-indent: 10px;
+}
+.label_box, .labelBox {
+    margin: 15px auto;
+    overflow: hidden;
+    width: 100%;
+}
+.labelBox {
+    position: relative;
+}
+.label_box span, .labelBox span {
+    background: rgba(0, 0, 0, 0) url("images/label_close.png") no-repeat scroll right center;
+    cursor: pointer;
+    float: left;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+.edit_pen {
+    background: rgba(0, 0, 0, 0) url("images/gsxx_icon.png") no-repeat scroll -161px -8px;
+    clear: left;
+    cursor: pointer;
+    float: right;
+    height: 22px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 35px;
+    width: 22px;
+}
+.edit_pen:hover {
+    background: rgba(0, 0, 0, 0) url("images/gsxx_icon.png") no-repeat scroll -120px -8px;
+}
+.labelBox span {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    cursor: default;
+    white-space: nowrap;
+}
+
+.add_span {
+    height: 34px;
+    overflow: hidden;
+    width: 354px;
+}
+.add_span input {
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    color: #555;
+    float: left;
+    font-size: 14px;
+    height: 22px;
+    padding: 5px 10px;
+    width: 246px;
+}
+.add_span span {
+    background: #ff5a5a none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 75px;
+}
+.add_span span:hover {
+    background: #ff2c2c none repeat scroll 0 0;
+}
+.maybe_labels {
+    overflow: hidden;
+    padding-top: 15px;
+    width: 100%;
+}
+.my_labels p.maybe_mate {
+    color: #999;
+    font-size: 16px;
+    text-indent: 0;
+}
+.box_mb_labels {
+    overflow: hidden;
+    width: 100%;
+}
+.box_mb_labels div {
+    cursor: pointer;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 8px;
+    margin-top: 6px;
+    width: 125px;
+}
+.box_mb_labels div.c1 {
+    color: #ee5512;
+}
+.box_mb_labels div.c2 {
+    color: #cb003e;
+}
+.box_mb_labels div.c3 {
+    color: #cd423b;
+}
+.box_mb_labels div.c4 {
+    color: #4cae87;
+}
+.box_mb_labels div.c5 {
+    color: #237484;
+}
+.box_mb_labels div.c6 {
+    color: #028a74;
+}
+
+
+.tables_mine .labels span.c1 {
+    color: #ee5512;
+}
+
+.tables_mine .labels span.c2 {
+    color: #cb003e;
+}
+.tables_mine .labels span.c3 {
+    color: #cd423b;
+}
+.tables_mine .labels span.c4 {
+    color: #4cae87;
+}
+.tables_mine .labels span.c5 {
+    color: #237484;
+}
+.tables_mine .labels span.c6 {
+    color: #028a74;
+}
+
+
+#self_info {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    padding: 50px 20px 0;
+    position: relative;
+    width: 720px;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.tables_mine > p {
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 0;
+}
+
+.tables_mine .labels span {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding: 0;
+    width: 125px;
+}
+
+
+.tab_con i {
+    float: left;
+    font-style: normal;
+}
+
+
+.expect_con li {
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    z-index: 0;
+}
+
+.tab_con li {
+    cursor: pointer;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 0 8px;
+    width: auto;
+}
+
+.tab_con li:hover, .tab_con li.active {
+    background: #e8f5ff none repeat scroll 0 0;
+}
+
+li {
+    list-style: outside none none;
+}
+
+
+
+.expect_con ul {
+    overflow: hidden;
+    width: 100%;
+    display: none;
+}
+
+.add_cons i {
+    color: #333;
+    float: left;
+    font-style: normal;
+}
+
+
+#add_ci {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    position: relative;
+    width: 567px;
+    z-index: 0;
+}
+
+.label_s input {
+    border: medium none;
+    padding: 9px 0 8px 15px;
+    width: 552px;
+}
+a, input, button {
+    outline: medium none;
+}
+button, input, textarea {
+    font-family: "微软雅黑";
+    outline: medium none;
+}
+
+.tab_li {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #e7e7e7;
+    height: 28px;
+    padding: 16px 10px 0;
+}
+
+
+.expect_con ul.tab_con {
+    overflow: hidden;
+    padding: 15px;
+    width: auto;
+}
+
+.add_cons {
+    padding: 0 10px;
+}
+
+.add_cons li {
+    background: #e8f5ff none repeat scroll 0 0;
+    float: left;
+    line-height: 22px;
+    margin-bottom: 3px;
+    margin-right: 7px;
+    margin-top: 6px;
+    padding: 0 5px 0 10px;
+    white-space: nowrap;
+    width: auto;
+}
+
+.tab_li span {
+    background: #82c9ff none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 5px;
+    padding: 0 8px;
+}
+
+
+.tab_li span.active {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e7e7e7 #e7e7e7 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    color: #555;
+    overflow: hidden;
+}
+
+.expect_con ul{
+    display: none;
+}
+
+.expect_con ul.tab_con{
+    display: block;
+}
+
+.tab_list {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    position: absolute;
+    /*如何随着框内元素增多下移？*/
+    width: 567px;
+}
+
+
+.label_s em.list_em {
+    background: rgba(0, 0, 0, 0) url("images/em_bi.jpg") no-repeat scroll center center;
+    float: left;
+    font-style: normal;
+    height: 22px;
+    margin-left: 5px;
+    margin-right: 0;
+    overflow: hidden;
+    width: 15px;
+    cursor: pointer;
+}
+
+
+
+.labelAdd {
+    text-align: center;
+    width: 100%;
+}
+
+
+.edit_list, .edit_list_fff {
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+
+.edit_list textarea {
+    border: 1px solid #cfcfcf;
+    color: #555;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    height: 120px;
+    margin-left: 10px;
+    padding: 10px;
+    resize: none;
+    width: 563px;
+}
+
+button, input, textarea {
+    font-family: "微软雅黑";
+    outline: medium none;
+}
+
+.edit_list p.yu {
+    line-height: 24px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.edit_list p.yu font {
+    color: #bfbfbf;
+    float: right;
+    font-size: 14px;
+    margin-right: 14px;
+    margin-top: 3px;
+}
+
+
+.footer_edit {
+    height: 22px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+}
+
+.footer_edit span.span_del {
+    background: rgba(0, 0, 0, 0) url("images/gsxx_icon.png") no-repeat scroll right bottom;
+    margin-left: 5px;
+}
+
+.footer_edit span.span_edit {
+    background: rgba(0, 0, 0, 0) url("images/gsxx_icon.png") no-repeat scroll -161px -8px;
+}
+
+
+.tables_mine .labelAdd a {
+    background: rgba(0, 0, 0, 0) url("images/add.png") no-repeat scroll center 0;
+    cursor: pointer;
+    display: block;
+    height: 60px;
+    line-height: 20px;
+    margin: 0 auto;
+    padding-left: 74px;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: left;
+    width: 260px;
+    color: #555;
+}
+
+.oops{
+    position: absolute;
+    width: 380px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -200px; 
+    z-index: 10000;
+    box-shadow: 5px 4px 24px #000;
+    color: #444;
+}
+
+.mask{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .5;
+  z-index: 1000
+}
+
+.oops p {
+    background: #3dabff none repeat scroll 0 0;
+    color: #fff;
+    font-size: 20px;
+    height: 55px;
+    line-height: 55px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 20px;
+    z-index: 0;
+}
+
+
+.oops p .tanclosebtn {
+    background: rgba(0, 0, 0, 0) url("images/jietu_close.png") no-repeat scroll -32px 0;
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    margin-right: 15px;
+    margin-top: 17px;
+    width: 20px;
+}
+
+
+.add_new_con {
+    background: #ffffff none repeat scroll 0 0;
+    display: inline-block;
+    padding-top: 37px;
+    width: 100%;
+}
+
+.form_leftcon {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.label_mc {
+    color: #656565;
+    float: left;
+    font-size: 18px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: right;
+    width: 115px;
+}
+
+
+.form_leftcon input.wbd {
+    border: 1px solid #cbcbcb;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding: 2px 5px;
+    width: 202px;
+}
+
+a, input, button {
+    outline: medium none;
+}
+
+button, input, textarea {
+    font-family: "微软雅黑";
+    outline: medium none;
+}
+
+.label_mc {
+    color: #656565;
+    float: left;
+    font-size: 18px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-align: right;
+    width: 115px;
+}
+
+.form_leftcon > div {
+    float: left;
+    margin-right: 10px;
+}
+
+.seles {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #cfcfcf;
+    float: left;
+    position: relative;
+    width: 64px;
+}
+
+.seles_choose {
+    background: rgba(0, 0, 0, 0) url("images/select_new.png") no-repeat scroll right -3px;
+    color: #000;
+    cursor: pointer;
+    float: left;
+    line-height: 30px;
+    width: 100%;
+}
+
+a, input, button {
+    outline: medium none;
+}
+
+button, input, textarea {
+    font-family: "微软雅黑";
+    outline: medium none;
+}
+
+.que_xiao {
+    margin-bottom: 35px;
+    margin-top: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.que_xiao a.sure {
+    background: #ff5a5a none repeat scroll 0 0;
+    margin-left: 125px;
+    margin-right: 25px;
+}
+.que_xiao a {
+    background: #d4d4d4 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    width: 80px;
+}
+
+
+.que_xiao a {
+    background: #d4d4d4 none repeat scroll 0 0;
+    color: #fff;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    width: 80px;
+}
+
+
+.seles_hide li:hover {
+    background: #ff2c2c none repeat scroll 0 0;
+    color: #fff;
+}
+.seles_hide li {
+    color: #fff;
+    cursor: default;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-indent: 10px;
+    width: 100%;
+}
+
+.seles_hide {
+    background: rgba(9, 9, 9, 0.6 );
+    display: none;
+    left: -1px;
+    max-height: 250px;
+    overflow: auto;
+    position: absolute;
+    top: 31px;
+    width: 68px;
+    z-index: 1;
+}
+
+.file input{
+    opacity: 0.5;
+    position: absolute;
+    font-size: 59px;
+    left: 219px;
+    opacity: 0;
+    position: absolute;
+    top: 58px;
+    width: 343px;
+}
+
+.file input:hover{
+    cursor: pointer;
+}
+
+.enddiv{
+    padding-bottom: 30px;
+}
